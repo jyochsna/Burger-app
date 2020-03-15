@@ -10,4 +10,4 @@ This is a simple burger logger app created with MySQL, Node, Express, Handlebars
     3. CREATE a new burger using the "Place Order" form, which... * hits a /burger/create route in Express to insert a new burger into the MySQL database * re-routes the webpage back to the index, where the burger is now ready to be eaten column (via Handlebars).
 
 And It works as shown:
-![results]("public/assets/img/burg.gif")
+![results](public/assets/img/burg.gif)
