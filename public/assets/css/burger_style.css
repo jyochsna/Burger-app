@@ -1,15 +1,19 @@
+
+
 html {
     position: relative;
     min-height: 100%;
 }
 
-body {
-
-    margin-bottom: 45px;
+body { 
+    background: url("../img/fries.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+   
 }
-
 .card-header {
-    background-color: #00970C;
+    background-color: rgb(235, 119, 25);
     color: #fff;
 }
 
@@ -27,4 +31,10 @@ footer small {
     line-height: 40px;
     color: #D2B773;
     font-size: 12px;
+}
+.btn {
+    background-color: #D2B773;
+}
+.btn-primary{
+    background-color: brown;
 }
