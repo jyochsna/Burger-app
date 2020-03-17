@@ -4,6 +4,7 @@ This is a simple burger logger app created with MySQL, Node, Express, Handlebars
 #### Functionality
   Using an home-grown ORM, the app has 3 basic CRUD functions..
    1. READ all entries from the MySQL database and display them to the DOM using HAndlebars.
+    2. Update a selected burger by clicking "Devour it",
 
     2. Update a selected burger by clicking "Devout It", which...* hits an /burger/eat/:id route in Express to change its "devoured" status in the MySQL database * re-routes the webpage back to the index, where the burger is now in the devoured column (via Handlebars).
 
