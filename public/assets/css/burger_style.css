@@ -1,45 +1,37 @@
-
-
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
-body { 
-    background: url("../img/fries.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-   
+body {
+  background: url("../img/fries.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
 .card-header {
-    background-color: rgb(235, 119, 25);
-    color: #fff;
-}
-
-img{
-    height:100px;
-    width:100px;
+  background-color: rgb(235, 119, 25);
+  color: #fff;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    height: 45px;
-    text-align: center;
-    width: 100%;
-    background-color:#905D2E;
-    border-top: 5px solid white;
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  text-align: center;
+  width: 100%;
+  background-color: #905d2e;
+  border-top: 5px solid white;
 }
 
 footer small {
-    line-height: 40px;
-    color: #D2B773;
-    font-size: 12px;
+  line-height: 40px;
+  color: #d2b773;
+  font-size: 12px;
 }
 .btn {
-    background-color: #D2B773;
+  background-color: #d2b773;
 }
-.btn-primary{
-    background-color: brown;
+.btn-primary {
+  background-color: brown;
 }
