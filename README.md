@@ -11,4 +11,6 @@ This is a simple burger logger app created with MySQL, Node, Express, Handlebars
  ### Deployed Application
   [Heroku Link](https://pacific-bastion-19820.herokuapp.com/burgers)
 
+  Copyright &copy; 2020 | Jyochsna Gongal
+
 
