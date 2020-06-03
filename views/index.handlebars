@@ -1,6 +1,6 @@
 <nav class="navbar">
     <img src="assets/img/emoji-burger.gif" height="80" class="d-inline-block align-top mx-auto" alt="">
-   
+
 </nav>
 <div class="container my-5">
     <div class="row">
@@ -10,28 +10,30 @@
                     <h4>Yummy Burgers</h4>
                 </div>
                 {{!-- <div class="col-md-6 text-center" class="task"> --}}
-                    <div class="row">
-                        {{#each burger_data}}
-                            {{#unless this.devoured}}
-                            <div class="card-body">
-                                <div class="row">
-                                <div class="col-md-9">
-                                
-                                    <pre>{{this.id}}. {{this.burger_name}}</pre>
-                                </div>
-                                <div class="col-md-3">
-                                    <form class="devour-form button-size">
-                                        <input type="hidden" class="burger_id" type="text" value={{this.id}}>
-                                        <button type="submit" class="btn btn-sm btn-outline-danger m-1 devour-btn float-right">Devour it!<i class="fas fa-utensils ml-2"></i></button>
-                                        </input>
-                                
-                                    </form>
-                                </div>
-                                </div>
+                <div class="row">
+                    {{#each burger_data}}
+                    {{#unless this.devoured}}
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-9">
+
+                                <pre>{{this.id}}. {{this.burger_name}}</pre>
                             </div>
-                        {{/unless}}
-                        {{/each}}
+                            <div class="col-md-3">
+                                <form class="devour-form button-size">
+                                    <input type="hidden" class="burger_id" type="text" value={{this.id}}>
+                                    <button type="submit"
+                                        class="btn btn-sm btn-outline-danger m-1 devour-btn float-right">Devour it!<i
+                                            class="fas fa-utensils ml-2"></i></button>
+                                    </input>
+
+                                </form>
+                            </div>
+                        </div>
                     </div>
+                    {{/unless}}
+                    {{/each}}
+                </div>
                 {{!-- </div> --}}
             </div>
         </div>
@@ -44,7 +46,8 @@
                     <div class="col-xs-6 text-center" class="task">
                         {{#each burger_data}}
                         {{#if this.devoured}}
-                        <input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}" readonly>
+                        <input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}"
+                            readonly>
                         {{/if}}
                         {{/each}}
                     </div>
@@ -60,7 +63,8 @@
                     <button type="submit" class="btn btn-primary" id="text-enter-button">Submit</button>
                     </input>
                 </form>
-                <p style="font-size: medium;">Enter a burger you want to eat and Click the "Submit" button.<p>
+                <p style="color:white;font-size: medium;">Enter a burger you want to eat and Click the "Submit" button.
+                <p>
             </div>
         </div>
     </div>
